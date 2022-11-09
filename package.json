@@ -1,0 +1,27 @@
+{
+  "name": "down-git-postcss",
+  "version": "1.0.0",
+  "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss style.css --dir public --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papapanos/down-git-postcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/papapanos/down-git-postcss/issues"
+  },
+  "homepage": "https://github.com/papapanos/down-git-postcss#readme",
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-preset-env": "^7.8.2"
+  }
+}
